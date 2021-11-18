@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title style="text-align: center;">Indian Railway</title>
+</head>
+<style>
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar ul {
+        overflow: auto;
+    }
+
+    .navbar li {
+        float: left;
+        list-style: none;
+        margin: 20px 20px;
+    }
+
+    .navbar li a {
+        padding: 10px 10px;
+        text-decoration: none;
+        color: white;
+    }
+
+    .Search {
+        float: right;
+        color: aliceblue;
+        padding: 20px 90px;
+    }
+
+    .navbar input {
+        border: 2px solid black;
+        border-radius: 7px;
+        padding: 3px 4px;
+    }
+
+    .Heading {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Notice {
+        float: left;
+    }
+
+    h2 {
+        text-align: center;
+        text-shadow: 0 0 3px;
+    }
+
+    h1 {
+        font-size: 70px;
+        text-shadow: 0 0 3px;
+    }
+
+    h3 {
+        position: relative;
+        left: 75px;
+    }
+    #train {
+        float: left;
+    }
+
+    #box {
+        background-color: white;
+        height: 600px;
+        width: 300px;
+        border-width: 5px;
+        border-color: blueviolet;
+        border-style: solid;
+    }
+    #note{
+        float: right;
+    }
+    .foot{
+        background-color: antiquewhite;
+        margin-top: 700px;
+        height: 100px;
+    }
+    .foot li {
+        float: left;
+        list-style: none;
+        margin: 40px 50px;
+    }
+
+    .foot li a {
+        padding: 10px 10px;
+        font-size: 25px;
+        color:black;
+    }
+</style>
+
+<body>
+    <span>
+        <img src="logo.jpg " alt="error" height="200">
+        <img src="train.jpg" alt="oops! there is a error" height="200" width="1050">
+        <h1>Indian Railways</h1>
+    </span>
+    <nav class="navbar">
+        <ul>
+            <li><a href="https://google.com">Home</a></li>
+            <li><a href="#">Amount</a></li>
+            <li><a href="#">Sevices</a></li>
+            <li><a href="#">Contact us</a></li>
+            <div class="Search">
+                <input type="text" name="Search" id="Search" placeholder="Search">
+            </div>
+        </ul>
+    </nav>
+    <main>
+ 
+        <span id="train">
+            <h2>Passenger Trains</h2>
+            <table border="2px" class="Table">
+
+                <tr>
+                    <th>Serial no.&nbsp; &nbsp; </th>
+                    <th>Train Id &nbsp; &nbsp;</th>
+                    <th>Timming of Start &nbsp; &nbsp; </th>
+                    <th>Start St. &nbsp; &nbsp; </th>
+                    <th>Stop St. &nbsp; &nbsp; </th>
+                    <th>More Details &nbsp; &nbsp; </th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>04449</td>
+                    <td>6:24</td>
+                    <td>New Delhi</td>
+                    <td>Khurukshetra</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>04472</td>
+                    <td>7:14</td>
+                    <td>Panipat</td>
+                    <td>Ghaziabaad</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>04450</td>
+                    <td>8:45</td>
+                    <td>New Delhi</td>
+                    <td>Panipat</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>04406</td>
+                    <td>9:14</td>
+                    <td>Khurukshetra</td>
+                    <td>Nizamuddin</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>04452</td>
+                    <td>15:24</td>
+                    <td>Khurukshetra</td>
+                    <td>Delhi</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>04457</td>
+                    <td>16:34</td>
+                    <td>Delhi</td>
+                    <td>Panipat</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>04470</td>
+                    <td>18:54</td>
+                    <td>Ghaziabaad</td>
+                    <td>Panipat</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>04476</td>
+                    <td>19:14</td>
+                    <td>Nizamuddin</td>
+                    <td>Khurukshetra</td>
+                </tr>
+
+            </table>
+            <h2>Expess Trains</h2>
+            <table border="2px" class="Table">
+                <tr>
+                    <th>Serial No.&nbsp; &nbsp;</th>
+                    <th>Train Id &nbsp; &nbsp;</th>
+                    <th>Timming of Start &nbsp; &nbsp; </th>
+                    <th>Start St. &nbsp; &nbsp; </th>
+                    <th>Stop St. &nbsp; &nbsp; </th>
+                    <th>More Details &nbsp; &nbsp; </th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>04554</td>
+                    <td>5:14</td>
+                    <td>New Delhi</td>
+                    <td>Himachal</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>04217</td>
+                    <td>6:45</td>
+                    <td>New Delhi</td>
+                    <td>Agra</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>04674</td>
+                    <td>8:44</td>
+                    <td>New Delhi</td>
+                    <td>Mumbai</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>04576</td>
+                    <td>13:41</td>
+                    <td>New Delhi</td>
+                    <td>Chandigarh</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td>04534</td>
+                    <td>14:21</td>
+                    <td>New Delhi</td>
+                    <td>Ajmeer</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td>04537</td>
+                    <td>17:54</td>
+                    <td>New Delhi</td>
+                    <td>Katra</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td>04598</td>
+                    <td>19:49</td>
+                    <td>New Delhi</td>
+                    <td>Dheradun</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td>04568</td>
+                    <td>21:51</td>
+                    <td>New Delhi</td>
+                    <td>Kolkata</td>
+                </tr>
+
+            </table>
+        </span> 
+        <span id="note">
+            <h3>Notices and Updates</h3>
+            <p id="box">
+            </p>
+        </span>
+ 
+    </main>
+    <footer class="foot" >
+        <p>
+            <ul>
+                <li><b><a href="https://google.com" target="_blank">Google</a></b></li>
+                <li><b><a href="https://wikipedia.com" target="_blank">Wikipedia</a></b></li>
+                <li><b><a href="https://india.gov.in" target="_blank">National Portal</a></b></li>
+                <li><b><a href="https://rtionline.gov.in" target="_blank">RTI</a></b></li>
+            </ul>
+        </p>
+
+    </footer>
+     <h2>
+         <a href="#">Back To Top</a>
+     </h2> 
+
+
+</body>
+
+</html>
